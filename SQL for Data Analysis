@@ -1,0 +1,9 @@
+-- https://www.zippia.com/advice/what-jobs-use-sql/
+
+-- DATABASE: A collection of tables that share connected data stored in a computer.
+-- ERD: A diagram that shows how data is structured in a database.
+-- SQL: A language that allows us to access data stored in a database.
+-- NoSQL stands for not only SQL.  It is popular for web-based data, but less popular for data that lives in spreadsheets. Most popular one is MongoDB.
+
+SELECT id, occurred_at, channel from web_events
+LIMIT 50
